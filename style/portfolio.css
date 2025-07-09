@@ -1,0 +1,80 @@
+
+.open-sans-normal    {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared */
+.txt-cntr{text-align: center;}
+.texta{color:#FD6E0A}
+.dark-2{color:#474747}
+.btn1{padding: 10px 20px;background-color: #FD6E0A;font-weight: 700;
+    color: white;border-radius: 5px;border:none
+}
+.sec-ttl{font-size: 35px;
+font-weight: bold;}
+.sec-bac{background-color: #FFF8F3;}
+.sec-des{color:#757575}
+
+.header{background-image: url(../portfolio-resources/images/developer.png),
+    url(../portfolio-resources/images/header_bg.png);
+background-repeat: no-repeat,no-repeat;
+background-position:top left, bottom right;
+}
+/* nav style */
+nav{display: flex;align-items: center;justify-content: space-around;
+margin: 0 130px;gap: 980px;}
+.nav-title{font-weight: 800;
+font-size: 45px;}
+nav ul li{list-style: none;margin-right: 50px;}
+ul li a{text-decoration: none;}
+
+nav ul{display: flex;align-items: center;}
+.banner{display: flex;justify-content: space-between;
+margin: 0 45px 0 200px;}
+.banner-des{color:#474747}
+/* banner style */
+.banner-h1{font-weight: bold;margin: 0;
+font-size: 80px;}
+.banner-h4{font-size: 45px;font-weight: 600;
+margin-bottom: 10px;margin-top: 150px;}
+.banner-conten{max-width: 580px;}
+.banner-pic{width: 550px;height:635px;}
+/* about style */
+.about{border-radius: 10px;padding:130px;text-align: center;margin-top:130px}
+main{max-width: 1140px;
+margin: 0 auto;}
+
+.about-itms{display: flex;justify-content:space-around}
+.skill-conten{display: flex;gap:20px}
+.skill{padding:30px;
+box-shadow: 0px 6px 50px 0px rgb(206, 205, 205);
+border-radius: 5px;}
+main section{margin: top 100px;margin-bottom: 100px;}
+/* section-resume */
+.resume{margin-top:130px}
+.resume-cont{display: flex;gap:20px}
+.resumi-col-ttl{font-size: 25px;font-weight: bold;}
+.experience-ttl{font-size: 20px;font-weight: bold;}
+.experience-sub-ttl{font-size: 17px;font-weight: bold;color:#8a8888;
+    margin-top: -18px;}
+.experience-des{color:#a5a5a5}
+.btn-resumi{text-align: center;margin-top: 50px;}
+/* footer */
+footer{display: flex;padding:130px 440px;gap:100px}
+.footer-col{width:50%}
+
+footer input[type="text"],footer input[type="email"],footer textarea{
+width: 90%;height: 60px;
+border-radius: 5px;
+padding: 10px 16px;
+display: block;
+background-color: white;
+border:none;
+margin-bottom: 23px;
+}
+footer h3{font-size: 30px;}
+footer p{color: #8a8888;}
+footer a{margin-right: 15px;}
