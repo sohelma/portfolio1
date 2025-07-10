@@ -56,6 +56,7 @@ margin: 0 auto;}
 .skill{padding:30px;
 box-shadow: 0px 6px 50px 0px rgb(206, 205, 205);
 border-radius: 5px;}
+.skill:hover{background-color: #f0ecec;}
 main section{margin-top: 100px;margin-bottom: 100px;}
 /* section-resume */
 .resume{margin-top:130px}
@@ -69,7 +70,7 @@ main section{margin-top: 100px;margin-bottom: 100px;}
 /* footer */
 footer{display: flex;padding:130px 440px;gap:100px}
 .footer-col{width:50%}
-footer textarea{width: 90%;height: 10px;
+footer textarea{width: 90%;height: 160px;
 border-radius: 5px;
 padding: 10px 16px;
 display: block;
