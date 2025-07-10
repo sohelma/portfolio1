@@ -4,22 +4,26 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 /* shared */
 .txt-cntr{text-align: center;}
-.texta{color:#FD6E0A}
-.dark-2{color:#474747}
+.texta{color:#FD6E0A;}
+.dark2{color:#474747}
 .btn1{padding: 10px 20px;background-color: #FD6E0A;font-weight: 700;
-    color: white;border-radius: 5px;border:none
+    color: white;border-radius: 5px;border:none;font-size: 20px;
+}
+.btn1:hover {
+  background-color: #e35d05;
+  cursor: pointer;
 }
 .sec-ttl{font-size: 35px;
 font-weight: bold;}
 .sec-bac{background-color: #FFF8F3;}
 .sec-des{color:#757575}
 
-.header{background-image: url(../portfolio-resources/images/developer.png),
-    url(../portfolio-resources/images/header_bg.png);
+.header{background-image: url(../images/developer.png),
+    url(../images/header_bg.png);
 background-repeat: no-repeat,no-repeat;
 background-position:top left, bottom right;
 }
@@ -46,13 +50,13 @@ margin-bottom: 10px;margin-top: 150px;}
 .about{border-radius: 10px;padding:130px;text-align: center;margin-top:130px}
 main{max-width: 1140px;
 margin: 0 auto;}
-
+.itm-des{font-size: 20px;font-weight: bold;}
 .about-itms{display: flex;justify-content:space-around}
 .skill-conten{display: flex;gap:20px}
 .skill{padding:30px;
 box-shadow: 0px 6px 50px 0px rgb(206, 205, 205);
 border-radius: 5px;}
-main section{margin: top 100px;margin-bottom: 100px;}
+main section{margin-top: 100px;margin-bottom: 100px;}
 /* section-resume */
 .resume{margin-top:130px}
 .resume-cont{display: flex;gap:20px}
@@ -65,8 +69,14 @@ main section{margin: top 100px;margin-bottom: 100px;}
 /* footer */
 footer{display: flex;padding:130px 440px;gap:100px}
 .footer-col{width:50%}
-
-footer input[type="text"],footer input[type="email"],footer textarea{
+footer textarea{width: 90%;height: 10px;
+border-radius: 5px;
+padding: 10px 16px;
+display: block;
+background-color: white;
+border:none;
+margin-bottom: 23px;}
+footer input[type="text"],footer input[type="email"]{
 width: 90%;height: 60px;
 border-radius: 5px;
 padding: 10px 16px;
